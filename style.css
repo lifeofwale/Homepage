@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+
+header
+{
+	min-height: 70px;
+}
+.container
+{
+	width: 100%
+	height:auto;
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+#logo img
+{
+	display: block;
+	float: left;
+	margin-top: 0;
+	margin-left: 20px;
+
+}
+#menu ul
+{
+	float: right;
+	margin-top: 60px;
+}
+#menu li
+{
+	list-style-type: none;
+	display: inline;
+}
+span
+{
+	color: red;
+}
+#menu a
+{
+	text-transform: uppercase;
+	color: grey;
+	text-decoration: none;
+	display: inline-block;
+	font-family: helvetica;
+	font-size: 18px;
+	padding: 20px;
+	box-sizing: border-box;;
+
+}
+#menu a:hover
+{
+	color: red;
+}
+#highlight a:active
+{
+	color: red;
+}
+
+#banner 
+{	
+	width:100%;
+	height:auto;
+	background: url("images/banner.png")  -400px 0;
+	min-height: 924px;
+
+	}
+
+.textonimage
+{
+	margin-top: 100px;
+}
+
+#banner h1
+{	
+
+	color: white;
+	font-family: tahoma;
+	background-color: #bb2529;
+	box-sizing: border-box;
+	display: block;
+	position: absolute;
+	margin-top: 180px;
+	margin-left: 150px;
+	/*left: 180px;
+	top: 300px;*/
+	padding: 15px;
+	padding-right: 35px;
+}
+
+#banner h2
+{
+	color: white;
+	font-family: tahoma;
+	background-color: #0b426c;
+	box-sizing: border-box;
+	display:block;
+	position: absolute;
+	margin-top: 240px;
+	margin-left: 150px;
+	/*left: 180px;
+	top: 360px;*/
+	padding: 15px;
+	padding-right: 35px;
+	
+}
+#banner p
+{
+	color: grey;
+	font-family: helvetica;
+	font-size: 15px;
+	line-height: 2.5;
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 150px;
+	/*left: 180px;
+	top:430px;*/
+	background-color: transparent;
+
+}
+
+.button
+{
+    background-color: transparent;
+    border: none;
+    color: grey;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border:1px solid grey;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 410px;
+}
+#news
+{
+	background-color: #00537f;
+	padding: 15px;
+}
+#news h3
+{
+	font-family: Bodoni Bk BT;
+	float: left;
+	font-size: 28px;
+	color: white;
+	margin-left: 160px;
+}
+.button2
+{
+	 background-color: white;
+    border: none;
+    color: grey;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border:1px solid grey;
+    border-radius: 5px;
+     float: right;
+     margin-right: 10px;
+}
+
+
+#boxes .box
+{
+	
+	display: inline-block;
+	float: left;
+	margin-bottom: 30px;
+}
+
+
+#boxes .box img
+{	
+	margin-top: 10px;
+	margin-left: 40px;
+	padding: 15px;
+
+	
+}
+#scale{
+	transition: all 1s;
+}
+#scale:hover
+{
+	transform: scale(1.1);
+}
+
+.box h4
+{
+
+	font-family: Bodoni Bd BT;
+	font-size: 28px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.box p
+{
+	font-family:Adobe Garamond Pro;
+	font-size: 25px;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+
+#comment 
+{
+	text-decoration: none;
+	color:blue;
+	background-color: transparent;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 2px;
+	font-family: helvetica;
+	font-size: 14px;
+	margin-left: 340px;
+	}
+
+	footer
+	{
+		min-height: 70px;
+	}
+
+#last
+{
+	background-image: url("images/ibadan.png") , url("images/blackground");
+	width: 200%;
+	height: auto;
+
+}
+#lastlogo
+{
+
+	position: absolute;
+	top: 2100px;
+	left: 450px;
+
+
+}
